@@ -1,0 +1,13 @@
+com\filemanager\TextReader.class
+com\filemanager\servlets\FileOpener.class
+com\filemanager\FileWrapper.class
+com\filemanager\servlets\FileEditor.class
+com\filemanager\servlets\Controller.class
+com\filemanager\servlets\Download.class
+com\filemanager\ClipBoardContent.class
+com\filemanager\dao\NoteDAO.class
+com\filemanager\Folder.class
+com\filemanager\TextEditor.class
+com\filemanager\servlets\NoteCreator.class
+com\filemanager\SessionLocaleFilter.class
+com\filemanager\DirRef.class

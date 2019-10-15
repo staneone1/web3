@@ -1,0 +1,102 @@
+H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#000000;font-size:22px;}
+H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#1b2631;font-size:16px;}
+H3 {font-family:Montserrat, sans-serif;color:white;background-color:#1b2631;font-size:16px;}
+BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:#1b2631;}
+B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#1b2631;}
+P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}
+A {color : black;}
+A.name {color : black;}
+HR {color : #1b2631;}
+
+table {
+    width: 85%;
+    empty-cells: show;
+    border-collapse: separate;
+    table-layout: fixed;
+    border-radius: 10px;
+}
+
+table.files
+{
+    border:5px solid #1b2631;
+}
+
+
+td.page-title {
+    text-align: center;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: white;
+    color: black;
+}
+td.title {
+    text-align: left;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-style:italic;
+    font-weight: bold;
+    background: #2F4F4F;
+}
+td.header-left {
+    text-align: left;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: #2F4F4F;
+    border-radius: 10px;
+}
+td.header-center {
+    text-align: center;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: #2F4F4F;
+
+}
+
+
+
+td.row-left {
+    text-align: left;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+    background: #708090;
+    border-radius: 10px;
+}
+td.row-center {
+    text-align: center;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+    background: #708090;
+    border-radius: 10px;
+}
+td.row-right {
+    text-align: right;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+    background: #708090;
+    border-radius: 10px;
+}
+
+
+th {
+    text-align: center;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: #708090;
+
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+    background: #696969;
+    word-wrap: break-word;
+    border-radius: 10px;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+    <display-name>FileManager</display-name>
+
+    <context-param>
+        <param-name>rootdir</param-name>
+        <param-value>C:/root</param-value>
+    </context-param>
+
+
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>com.filemanager.servlets.Controller</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/fm/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>opener</servlet-name>
+        <servlet-class>com.filemanager.servlets.FileOpener</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>opener</servlet-name>
+        <url-pattern>/open</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editor</servlet-name>
+        <servlet-class>com.filemanager.servlets.FileEditor</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>editor</servlet-name>
+        <url-pattern>/edit/*</url-pattern>
+    </servlet-mapping>
+
+<!--    <servlet>-->
+<!--        <servlet-name>notes</servlet-name>-->
+<!--        <servlet-class>com.filemanager.servlets.NoteCreator</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>notes</servlet-name>-->
+<!--        <url-pattern>/createNote</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+</web-app>
